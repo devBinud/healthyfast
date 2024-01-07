@@ -2485,7 +2485,6 @@ section {
 }
 .top-doctors .doctor-box p{
     color: #485664;
-    font-weight: 600!important;
 }
 @media (max-width: 767px) {
   .top-doctors .row {
@@ -2746,6 +2745,12 @@ section {
 }
 }
 
+/* ADDED CSS FILES  */
+.doctor__specialization{
+  font-size:13px;
+  margin-top:-11px;
+  color: #838893!important;
+}
 
 /* MEDIA QUERIES FOR ALL THE SECTIONS  */
 
