@@ -1095,6 +1095,10 @@ section {
   font-size: 15px!important;
   color: rgb(149, 143, 167)!important;
 }
+.searchBar__leftText{
+  background-color: #6f7186;
+  padding: 8px;
+}
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
