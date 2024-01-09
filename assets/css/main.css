@@ -252,7 +252,6 @@ section {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--color-white);
-  /* background: rgba(var(--color-primary-rgb), 0.85); */
   background-color: #6633F2;
 }
 
@@ -269,7 +268,7 @@ section {
 --------------------------------------------------------------*/
 .hero__sliders {
   padding-bottom: 0;
-  margin-top: 90px;
+  /* margin-top: 90px; */
   padding: 0px!important;
 }
 
@@ -971,6 +970,7 @@ section {
   border-radius: 0;
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
   flex-direction: column;
   transition: 0s;
@@ -997,7 +997,6 @@ section {
 
 .features .nav-link.active {
   transition: 0.3s;
-  /* background: var(--color-secondary) linear-gradient(rgba(var(--color-primary-rgb), 0.95), rgba(var(--color-primary-rgb), 0.6)); */
   background: linear-gradient(#7678e4, #4a508c);
   border-color: var(--color-primary);
   border-radius: 10px;
@@ -1058,6 +1057,43 @@ section {
   font-size: 24px;
     font-weight: 500;
     margin-bottom: 30px!important;
+}
+/*--------------------------------------------------------------
+# Top Search Bar Section
+--------------------------------------------------------------*/
+.top__searchBar{
+  margin-top: 80px;
+  margin-bottom: 2px;
+}
+
+.top__searchBar .btn:hover{
+  color:#fff;
+}
+
+.top__searchBar .input-text:focus{
+  box-shadow: 0px 0px 0px;
+  border-color:#6633F2;
+  outline: 0px;
+}
+
+.top__searchBar .form-control {
+  border: 1px solid #cfc2f3;
+  box-shadow: 0 4px 8px rgb(181 120 255 / 12%);
+}
+.search__icon{
+  padding: 10px 14px;
+  border:none;
+  outline: none;
+  background: #6633F2;
+  border-top: 1px solid #6633F2;
+  border-right: 1px solid #6633F2;
+  border-bottom: 1px solid #6633F2;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.right__searchBar ::placeholder{
+  font-size: 15px!important;
+  color: rgb(149, 143, 167)!important;
 }
 /*--------------------------------------------------------------
 # Services Section
@@ -2485,6 +2521,7 @@ section {
 }
 .top-doctors .doctor-box p{
     color: #485664;
+    text-align: center;
 }
 @media (max-width: 767px) {
   .top-doctors .row {
@@ -2525,16 +2562,6 @@ section {
   min-height: 500px;
   background-size: cover;
 }
-
-.why-us .slides {
-  background-color: #f6f9ff;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-top: 1px solid #d0c0fa;
-  border-bottom: 1px solid #d0c0fa;
-}
-
 .why-us h3 {
   font-size: 24px;
   font-weight: 700;
@@ -2759,7 +2786,7 @@ section {
     font-size: 14px;
  }
  .hero__sliders{
-  margin-top: 58px;
+  margin-top: 0px;
  }
  .hero__sliders .swiper {
   margin: 0!important;
@@ -2808,8 +2835,21 @@ section {
 }
 .top-doctors .doctor-box p{
   font-size: 13px;
+  text-align: center;
 }
 .post-content p {
   font-size: 10px;
+}
+.top__searchBar{
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+.search__icon {
+  padding: 6px 8px;
+  border-bottom-right-radius: 3px;
+}
+.right__searchBar ::placeholder{
+  font-size: 12px!important;
+  color: rgb(141, 134, 164)!important;
 }
 }
