@@ -366,8 +366,18 @@ section {
 }
 @media (max-width: 1200px) {
   .hero__sliders .swiper {
-    margin: 60px 60px 40px 60px;
+    /* margin: 60px 60px 40px 60px; */
+    margin: 0;
   }
+  .slider{
+    padding: 25px 5px;
+  }
+  .hero__sliders .hero__left h3 {
+    font-size: 25px;
+}
+.hero__sliders .hero__sliderButton {
+  margin-top: 12px;
+}
 
   .hero__sliders .swiper-button-prev,
   .hero__sliders .swiper-button-next {
@@ -2464,7 +2474,10 @@ section {
     align-items: center;
     cursor: pointer;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
+    min-height: 101px;
+
 }
 .service-box .box i{
   padding-top: 14px;
@@ -2477,6 +2490,8 @@ section {
 .service-box .box p{
     color: #485664;
     font-weight: 600!important;
+    font-size: 10px;
+    letter-spacing: 0.3px;
 }
 @media (max-width: 767px) {
   .service-box .row {
